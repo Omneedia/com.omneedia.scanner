@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 1,
+    "build": 2,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -28,7 +28,7 @@
     "frameworks": [
         {
             "name": "touch",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "src": "http://cdn.sencha.io/touch/sencha-touch-{version}/sencha-touch-all-debug.js",
             "res": "http://cdn.sencha.io/touch/sencha-touch-{version}/resources/css/sencha-touch.css"
         },
@@ -77,8 +77,7 @@
         "org.apache.cordova.splashscreen",
         "com.phonegap.plugins.barcodescanner",
         "com.hutchind.cordova.plugins.streamingmedia",
-        "https://github.com/dawsonloudon/VideoPlayer.git",
-        "https://github.com/poiuytrez/SpeechRecognizer"
+        "com.moust.cordova.videoplayer"
     ],
     "server": {
         "port": 3000
