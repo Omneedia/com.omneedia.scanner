@@ -52,8 +52,8 @@
         "file": "app.png"
     },
     "splashscreen": {
-        "background": "#FFFFFF",
-        "color": "orange",
+        "background": "#AAAAAA",
+        "color": "#FFFFFF",
         "file": "app.png"
     },
     "plugins": [
