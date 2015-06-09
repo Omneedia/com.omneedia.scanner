@@ -1,0 +1,68 @@
+{
+    "namespace": "com.omneedia.scanner",
+    "git": "",
+    "title": "com.omneedia.scanner",
+    "description": "Package description goes here",
+    "platform": "mobile",
+    "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
+    "version": "1.00",
+    "build": "0",
+    "copyright": "Copyright (c) 2015 By OMNEEDIA",
+    "license": "BSD",
+    "author": {
+        "name": "XXX",
+        "mail": "xxx@xxx.com",
+        "twitter": "@xxx",
+        "web": "",
+        "github": ""
+    },
+    "team": {
+        "debugger": [],
+        "tester": []
+    },
+    "langs": [
+        "en",
+        "fr"
+    ],
+    "auth": [],
+    "frameworks": [
+        {
+            "name": "touch",
+            "version": "2.4.0",
+            "src": "http://cdn.sencha.io/touch/sencha-touch-{version}/sencha-touch-all-debug.js",
+            "res": "http://cdn.sencha.io/touch/sencha-touch-{version}/resources/css/sencha-touch.css"
+        },
+        {
+            "name": "jquery",
+            "version": "2.1.0",
+            "src": "http://cdnjs.cloudflare.com/ajax/libs/jquery/{version}/jquery.js"
+        }
+    ],
+    "paths": {},
+    "modules": [],
+    "controllers": [
+        "CMain"
+    ],
+    "api": [
+        "MyService"
+    ],
+    "packages": [],
+    "icon": {
+        "background": "#FFFFFF",
+        "file": "app.png"
+    },
+    "splashscreen": {
+        "background": "#FFFFFF",
+        "color": "orange",
+        "file": "app.png"
+    },
+    "plugins": [
+        "org.apache.cordova.device"
+    ],
+    "server": {
+        "port": 3000
+    },
+    "debug": {
+        "port": 8080
+    }
+}
