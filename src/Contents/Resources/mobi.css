@@ -29,3 +29,11 @@ Body
 {
 	background-color: white;
 }
+
+.UIScanner
+{
+	background-image:url(mobi/scan.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size: contain;
+}
