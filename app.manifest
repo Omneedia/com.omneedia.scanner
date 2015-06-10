@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 7,
+    "build": 8,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -58,7 +58,26 @@
     },
     "plugins": [
         "cordova-plugin-device",
-        "com.phonegap.plugins.barcodescanner"
+        "cordova-plugin-statusbar",
+        "cordova-plugin-network-information",
+        "cordova-plugin-battery-status",
+        "cordova-plugin-device-motion",
+        "cordova-plugin-device-orientation",
+        "cordova-plugin-geolocation",
+        "cordova-plugin-camera",
+        "cordova-plugin-media-capture",
+        "cordova-plugin-media",
+        "cordova-plugin-file",
+        "cordova-plugin-file-transfer",
+        "cordova-plugin-dialogs",
+        "cordova-plugin-vibration",
+        "cordova-plugin-contacts",
+        "cordova-plugin-globalization",
+        "cordova-plugin-inappbrowser",
+        "cordova-plugin-splashscreen",
+        "com.phonegap.plugins.barcodescanner",
+        "com.hutchind.cordova.plugins.streamingmedia",
+        "https://github.com/dawsonloudon/VideoPlayer.git"
     ],
     "server": {
         "port": 3000
