@@ -42,7 +42,7 @@ App.controller.define('CMain', {
 				var address=result.text.split('://')[1].split(':')[1].split('/')[1];
 				location.href='http://'+host+':'+port+'/'+address;
 				*/
-				window.location.replace(result.text);
+				window.open(result.text, '_system');
 				/*var iframe=document.createElement('iframe');
 				iframe.src=result.text;
 				iframe.style.border="0px solid black";
