@@ -42,7 +42,8 @@ App.controller.define('CMain', {
 				var address=result.text.split('://')[1].split(':')[1].split('/')[1];
 				location.href='http://'+host+':'+port+'/'+address;
 				*/
-				var iframe=document.createElement('iframe');
+				window.location.replace(result.text);
+				/*var iframe=document.createElement('iframe');
 				iframe.src=result.text;
 				iframe.style.border="0px solid black";
 				iframe.style.position="absolute";
@@ -52,6 +53,7 @@ App.controller.define('CMain', {
 				iframe.style.height="100%";
 				iframe.style.zIndex="99999";
 				document.getElementsByTagName('body')[0].appendChild(iframe);
+				*/
 			}, 
 			function (error) {
 			  alert("Scanning failed: " + error);

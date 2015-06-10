@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 10,
+    "build": 11,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -75,9 +75,9 @@
         "cordova-plugin-globalization",
         "cordova-plugin-inappbrowser",
         "cordova-plugin-splashscreen",
-        "com.phonegap.plugins.barcodescanner",
-        "com.hutchind.cordova.plugins.streamingmedia",
-        "https://github.com/dawsonloudon/VideoPlayer.git"
+        "cordova-plugin-barcodescanner",
+        "Streaming-Media-Cordova-Plugin",
+        "https://github.com/macdonst/VideoPlayer"
     ],
     "server": {
         "port": 3000
