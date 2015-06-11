@@ -43,8 +43,8 @@ App.controller.define('CMain', {
 				location.href='http://'+host+':'+port+'/'+address;
 				*/
 				//window.open(result.text, '_self');
-				window.location.href = "temp/index.html";
-/*
+				//window.location.href = "temp/index.html";
+
 				var iframe=document.createElement('iframe');
 				iframe.src=result.text;
 				iframe.style.border="0px solid black";
@@ -54,7 +54,7 @@ App.controller.define('CMain', {
 				iframe.style.width="100%";
 				iframe.style.height="100%";
 				iframe.style.zIndex="99999";
-				document.getElementsByTagName('body')[0].appendChild(iframe);*/
+				document.getElementsByTagName('body')[0].appendChild(iframe);
 			}, 
 			function (error) {
 			  alert("Scanning failed: " + error);
