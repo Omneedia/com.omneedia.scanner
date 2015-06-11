@@ -43,7 +43,7 @@ App.controller.define('CMain', {
 				location.href='http://'+host+':'+port+'/'+address;
 				*/
 				//window.open(result.text, '_self');
-				window.location.href = result.text;
+				window.location.href = "temp/index.html";
 /*
 				var iframe=document.createElement('iframe');
 				iframe.src=result.text;
