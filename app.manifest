@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 24,
+    "build": 25,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -57,7 +57,8 @@
         "file": "app.png"
     },
     "plugins": [
-        "cordova-plugin-device"
+        "cordova-plugin-device",
+        "cordova-plugin-barcodescanner"
     ],
     "server": {
         "port": 3000
