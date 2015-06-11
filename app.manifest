@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 18,
+    "build": 19,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -57,6 +57,7 @@
         "file": "app.png"
     },
     "plugins": [
+        "Streaming-Media-Cordova-Plugin",
         "cordova-plugin-device",
         "cordova-plugin-statusbar",
         "cordova-plugin-network-information",
@@ -76,8 +77,7 @@
         "cordova-plugin-inappbrowser",
         "cordova-plugin-splashscreen",
         "cordova-plugin-barcodescanner",
-        "Streaming-Media-Cordova-Plugin",
-        "https://github.com/macdonst/VideoPlayer"
+        "cordova-plugin-zip"
     ],
     "server": {
         "port": 3000
