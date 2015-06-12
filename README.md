@@ -1,4 +1,4 @@
-# com.omneedia.scanner
+# Omneedia Scanner App
 
 ## com.omneedia.scanner
 
