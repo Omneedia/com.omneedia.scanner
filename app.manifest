@@ -1,18 +1,18 @@
 {
     "namespace": "com.omneedia.scanner",
-    "git": "",
+    "git": "https://github.com/Omneedia/com.omneedia.scanner",
     "title": "Scanner Omneedia",
     "description": "Test your omneedia app in near real time",
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 38,
+    "build": 39,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
-        "name": "XXX",
-        "mail": "xxx@xxx.com",
-        "twitter": "@xxx",
+        "name": "Stéphane Zucatti",
+        "mail": "stephane.zucatti@me.com",
+        "twitter": "@mydearsz",
         "web": "",
         "github": ""
     },
