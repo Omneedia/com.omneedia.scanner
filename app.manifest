@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 60,
+    "build": 61,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -65,7 +65,6 @@
         "cordova-plugin-device-orientation",
         "cordova-plugin-geolocation",
         "cordova-plugin-camera",
-        "cordova-plugin-media-capture",
         "cordova-plugin-media",
         "cordova-plugin-file",
         "cordova-plugin-file-transfer",
