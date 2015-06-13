@@ -38,19 +38,20 @@ App.view.define('VMain', {
 		},	
 		items: [
 			{
-				title: 'Omneedia Scanner',
+				title: 'Omneedia Scope',
 				layout: {
 					type: 'vbox',
 					pack: 'center'                        
                 },
+				bodyStyle: "background-color: blue",
 				items: [
-					{
+					/*{
 						xtype: 'TapPanel',					
 						baseCls : "UIScanner",
 						itemId: "scanner",
 						width:"100%",
 						height:180
-					}
+					}*/
 				]
 			}
 		
