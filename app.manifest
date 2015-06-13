@@ -6,7 +6,7 @@
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 57,
+    "build": 58,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -30,7 +30,7 @@
             "name": "touch",
             "version": "2.4.1",
             "src": "http://cdn.sencha.io/touch/sencha-touch-{version}/sencha-touch-all-debug.js",
-            "res": "http://cdn.sencha.io/touch/sencha-touch-{version}/resources/css/sencha-touch.css"
+            "res": "http://cdn.sencha.io/touch/sencha-touch-{version}/resources/css/cupertino.css"
         },
         {
             "name": "jquery",
