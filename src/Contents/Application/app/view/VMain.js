@@ -43,15 +43,14 @@ App.view.define('VMain', {
 					type: 'vbox',
 					pack: 'center'                        
                 },
-				bodyStyle: "background-color: blue",
 				items: [
-					/*{
+					{
 						xtype: 'TapPanel',					
 						baseCls : "UIScanner",
 						itemId: "scanner",
 						width:"100%",
 						height:180
-					}*/
+					}
 				]
 			}
 		
