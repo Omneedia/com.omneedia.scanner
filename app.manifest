@@ -1,12 +1,12 @@
 {
-    "namespace": "com.omneedia.scanner",
-    "git": "https://github.com/Omneedia/com.omneedia.scanner",
-    "title": "Scanner Omneedia",
-    "description": "Test your omneedia app in near real time",
+    "namespace": "com.omneedia.scope",
+    "git": "https://github.com/Omneedia/com.omneedia.scope",
+    "title": "OmneediaScope",
+    "description": "Test your app build with omneedia Framework in real device",
     "platform": "mobile",
     "uid": "5abd1975-83eb-44d3-8b73-5ad3c3b47650",
     "version": "1.00",
-    "build": 65,
+    "build": 66,
     "copyright": "Copyright (c) 2015 By OMNEEDIA",
     "license": "BSD",
     "author": {
@@ -52,8 +52,8 @@
         "file": "app.png"
     },
     "splashscreen": {
-        "background": "#FFFFFF",
-        "color": "#FFFFFF",
+        "background": "navy",
+        "color": "blue",
         "file": "app.png"
     },
     "plugins": [
